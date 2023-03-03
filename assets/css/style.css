@@ -1,0 +1,42 @@
+/* Global */
+:root {
+  --yellow: #ffc017;
+  --balck: #191919;
+  --green: #1a8917;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--balck);
+}
+
+/* HEADER */
+.header {
+  background-color: var(--yellow);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px;
+  border-bottom: 1px solid var(--balck);
+}
+
+.header__nav-item {
+  display: inline-block;
+  margin-inline: 15px;
+}
+
+.header__nav-item--button {
+  color: #fff;
+  background-color: var(--balck);
+  padding-inline: 15px;
+  padding-block: 10px;
+  border-radius: 20px;
+}
+
+.hero__title {
+  font-family: "Spectral", serif;
+}
