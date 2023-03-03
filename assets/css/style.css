@@ -256,6 +256,8 @@ a {
 
 .taglist__container {
   font-size: 0.81rem;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 25px;
 }
 
 .taglist__container span {
@@ -265,4 +267,12 @@ a {
   margin-bottom: 8px;
   margin-right: 8px;
   display: inline-block;
+}
+
+.taglist__list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  padding-inline: 20px;
 }
