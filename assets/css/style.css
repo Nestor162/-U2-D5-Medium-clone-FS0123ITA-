@@ -101,3 +101,71 @@ a {
   z-index: -1;
   height: 537.8px;
 }
+
+/* TRENDING SECTION */
+
+.section-trending {
+  padding-top: 40px;
+}
+
+.section-trending__container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 33%;
+  justify-content: center;
+  gap: 4%;
+  position: relative;
+}
+
+.section-trending__title {
+  margin-bottom: 16px;
+}
+
+.section-trending__author,
+.section-trending__title,
+.section-trending__time {
+  margin-left: 55px;
+}
+
+.section-trending__author h3 {
+  display: inline-block;
+}
+
+.section-trending__author {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 8px;
+  font-size: 0.8rem;
+}
+
+.section-trending__profile {
+  border-radius: 10px;
+  width: 20px;
+}
+
+.section-trending__title {
+  font-weight: 700;
+}
+
+.section-trending__time {
+  font-size: 0.8rem;
+  color: #757575;
+}
+
+.section-trending__time span::before {
+  content: "\02022";
+  padding-inline: 5px;
+}
+
+.section-trending__article {
+  width: 30%;
+  margin-block: 20px;
+}
+
+.section-trending__number {
+  position: absolute;
+  color: #e6e6e6;
+  font-size: 1.87rem;
+  font-weight: bold;
+}
