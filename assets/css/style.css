@@ -30,16 +30,6 @@ a {
   transition: background-color 300ms linear;
 }
 
-.header:after {
-  content: "";
-  position: absolute;
-  bottom: -1px;
-  left: -190px;
-  right: -172px;
-  height: 1px;
-  background-color: black;
-}
-
 .header__nav-item {
   display: inline-block;
   margin-inline: 15px;
