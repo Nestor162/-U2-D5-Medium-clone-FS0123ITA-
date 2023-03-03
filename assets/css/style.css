@@ -242,3 +242,27 @@ a {
   position: sticky;
   top: 110px;
 }
+
+.taglist h2 {
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+
+.taglist__item {
+  list-style-type: none;
+  font-size: 0.87rem;
+  color: #757575;
+}
+
+.taglist__container {
+  font-size: 0.81rem;
+}
+
+.taglist__container span {
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 3px;
+  padding: 6px 16px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  display: inline-block;
+}
