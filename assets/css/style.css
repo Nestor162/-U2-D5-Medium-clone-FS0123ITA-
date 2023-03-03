@@ -49,6 +49,10 @@ a {
   transition: background-color 300ms linear;
 }
 
+.green {
+  background-color: #0f730c;
+}
+
 /* HERO */
 
 .hero {
