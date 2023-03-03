@@ -237,6 +237,18 @@ a {
   object-fit: cover;
 }
 
+.section-articles__tag {
+  display: inline-block;
+  border-radius: 100px;
+  padding: 5px;
+  background-color: #f2f2f2;
+  margin-left: 3px;
+}
+
+.section-articles__time {
+  font-size: 0.81rem;
+}
+
 /* ASIDE */
 .taglist {
   position: sticky;
