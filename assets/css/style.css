@@ -128,6 +128,17 @@ a {
 
 .section-trending__title {
   margin-bottom: 16px;
+  position: relative;
+}
+
+.section-trending__icon {
+  display: inline-block;
+  position: absolute;
+  top: -7px;
+}
+
+.section-trending__title h2 {
+  margin-left: 42px;
 }
 
 .section-trending__author,
