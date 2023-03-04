@@ -274,6 +274,14 @@ a {
 .section-articles__time {
   font-size: 0.81rem;
 }
+.section-articles__text {
+  position: relative;
+}
+
+.section-articles__bookmark img {
+  position: absolute;
+  right: 0;
+}
 
 /* ASIDE */
 .taglist {
