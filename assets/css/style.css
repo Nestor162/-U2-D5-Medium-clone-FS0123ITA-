@@ -66,9 +66,10 @@ a {
 
 .hero__title {
   font-family: "Spectral", serif;
-  font-size: 6.625rem;
+  font-size: 7rem;
   padding-top: 93px;
   margin-bottom: 35px;
+  letter-spacing: -7px;
 }
 
 .hero__subtitle {
