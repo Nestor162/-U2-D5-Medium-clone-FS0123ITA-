@@ -187,12 +187,15 @@ a {
   font-weight: bold;
 }
 
-.section-trending__star img {
+.section-trending__star img,
+.section-articles__star img {
   position: absolute;
-  top: -5px;
+  top: -2px;
+  width: 15px;
 }
 
-.section-trending__time {
+.section-trending__time,
+.section-articles__star {
   position: relative;
 }
 
@@ -259,7 +262,7 @@ a {
   border-radius: 100px;
   padding: 2px 8px;
   background-color: #f2f2f2;
-  margin-left: 3px;
+  margin-inline: 3px;
   cursor: pointer;
 }
 
