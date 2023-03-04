@@ -7,7 +7,7 @@ let timer = setInterval(() => {
   let opacity = window
     .getComputedStyle(currentLetter)
     .getPropertyValue("opacity");
-  if (opacity === "1") {
+  if (opacity === "1" && !currentLetter.classList.contains("header__logo")) {
     currentLetter.style.opacity = 0;
   } else {
     currentLetter.style.opacity = 1;
