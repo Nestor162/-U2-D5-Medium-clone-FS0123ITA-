@@ -1,4 +1,4 @@
-let m = document.querySelectorAll("path");
+let m = document.querySelectorAll("g");
 let numLetters = m.length;
 
 let timer = setInterval(() => {
@@ -7,7 +7,7 @@ let timer = setInterval(() => {
   let opacity = window
     .getComputedStyle(currentLetter)
     .getPropertyValue("opacity");
-  if (opacity === "1" && !currentLetter.classList.contains("header__logo")) {
+  if (opacity === "1") {
     currentLetter.style.opacity = 0;
   } else {
     currentLetter.style.opacity = 1;
