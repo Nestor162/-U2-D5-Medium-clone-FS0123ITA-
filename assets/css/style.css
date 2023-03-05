@@ -158,11 +158,18 @@ a {
   }
 }
 
-@media screen and (min-width: 727px) and (max-width: 1080px) {
+@media screen and (max-width: 903px) {
+  .hero__m-letters {
+    left: 420px;
+  }
+}
+
+@media screen and (min-width: 903px) and (max-width: 1080px) {
   .hero__m-letters {
     left: 520px;
   }
 }
+
 /* TRENDING SECTION */
 
 .section-trending {
