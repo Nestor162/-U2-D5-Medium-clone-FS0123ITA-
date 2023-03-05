@@ -1,4 +1,4 @@
-let m = document.querySelectorAll("g");
+let m = document.querySelectorAll("svg g g g");
 let numLetters = m.length;
 
 let timer = setInterval(() => {
