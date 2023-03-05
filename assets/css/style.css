@@ -28,7 +28,14 @@ a {
   top: 0;
   z-index: 3;
   padding-inline: 185px;
+  margin-inline: auto;
   transition: background-color 300ms linear;
+  /* flex-wrap: nowrap; */
+  white-space: nowrap;
+}
+
+.header__logo {
+  flex-shrink: 0;
 }
 
 .header__nav-item {
@@ -53,6 +60,37 @@ a {
   background-color: #0f730c;
 }
 
+@media screen and (min-width: 552px) and (max-width: 727px) {
+  .header__nav ul li:nth-child(1),
+  .header__nav ul li:nth-child(2),
+  .header__nav ul li:nth-child(3) {
+    display: none;
+  }
+
+  .hero__m-letters {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1328px) {
+  .header {
+    padding-inline: 70px;
+  }
+}
+
+@media screen and (max-width: 551px) {
+  .header__nav ul li:nth-child(1),
+  .header__nav ul li:nth-child(2),
+  .header__nav ul li:nth-child(3),
+  .header__nav ul li:nth-child(4) {
+    display: none;
+  }
+
+  .hero__m-letters {
+    display: none;
+  }
+}
+
 /* HERO */
 
 .hero {
@@ -70,6 +108,7 @@ a {
   padding-top: 93px;
   margin-bottom: 35px;
   letter-spacing: -7px;
+  max-width: fit-content;
 }
 
 .hero__subtitle {
@@ -77,6 +116,7 @@ a {
   line-height: 24px;
   max-width: 440px;
   margin-bottom: 50px;
+  width: 80%;
 }
 
 .hero__button {
@@ -106,6 +146,21 @@ a {
   height: 537.8px;
 }
 
+@media screen and (max-width: 1323px) {
+  .all {
+    margin: 0px 64px;
+  }
+}
+
+@media screen and (max-width: 903px) {
+  .hero__title {
+    font-size: 5.313rem;
+  }
+}
+
+@media screen and (min-width: 727px) and (max-width: 1080px) {
+  /* Fissare lettere m */
+}
 /* TRENDING SECTION */
 
 .section-trending {
