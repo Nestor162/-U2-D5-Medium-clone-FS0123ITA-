@@ -159,7 +159,9 @@ a {
 }
 
 @media screen and (min-width: 727px) and (max-width: 1080px) {
-  /* Fissare lettere m */
+  .hero__m-letters {
+    left: 520px;
+  }
 }
 /* TRENDING SECTION */
 
